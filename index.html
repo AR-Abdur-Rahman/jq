@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Js/jq</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    
+
+    <div class="container">
+      <!-- ex--1 -->
+      <h1>Click the button to show/hide the text</h1>
+      <button type="button" class="btn btn-dark" id="btn_s">Show</button>
+      <button type="button" class="btn btn-dark" id="btn_h">Hide</button>
+      <h3>Lorem ipsum dolor sit amet?</h3>
+      <!-- ex--1 -->
+
+      <!-- ex--2 --> <hr>
+      <h1>Click the button to fast show/hide the text</h1>
+      <button type="button" class="btn btn-dark" id="btn_show">Show</button>
+      <button type="button" class="btn btn-dark" id="btn_hide">Hide</button>
+      <h5 id="f">Lorem ipsum dolor sit amet?</h5>
+      <!-- ex--2 -->
+
+      <!-- ex--3 --> <hr>
+      <h1>Click the button to slow show/hide the text</h1>
+      <button type="button" class="btn btn-dark" id="btn_ow">Show</button>
+      <button type="button" class="btn btn-dark" id="btn_de">Hide</button>
+      <h3 id="hi">Lorem ipsum dolor sit amet?</h3>
+      <!-- ex--3 -->
+
+      <!-- ex--4 --> <hr>
+      <h1>Click the button to toggle the text</h1>
+      <button type="button" class="btn btn-dark" id="togg">Toggle</button>
+      <h3 id="tog">Lorem ipsum dolor sit amet.</h3>
+      <!-- ex--4 -->
+
+      <!-- ex--4 --> <hr>
+      <h1>Click the button to fast toggle the text</h1>
+      <button type="button" class="btn btn-dark" id="ogg">Toggle</button>
+      <h3 id="g">Lorem ipsum dolor sit amet.</h3>
+      <!-- ex--4 -->
+
+      <!-- ex--4 --> <hr>
+      <h1>Click the button to slow toggle the text</h1>
+      <button type="button" class="btn btn-dark" id="og">Toggle</button>
+      <h3 id="o">Lorem ipsum dolor sit amet.</h3>
+      <!-- ex--4 -->
+
+      <!-- ex--5 --> <hr>
+       <h1>Click the button to slide Dwon</h1>
+       <button type="button" class="btn btn-dark" id="slide">Slid Down</button>
+       <p id="down_contant">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis corporis enim hic quam natus ducimus ex a magni ullam nesciunt.</p>
+      <!-- ex--5 -->
+
+      <!-- ex--6 --> <hr>
+      <h1>Click the button to fats slide Dwon</h1>
+      <button type="button" class="btn btn-dark" id="sd">Slid Down</button>
+      <p id="contant">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis corporis enim hic quam natus ducimus ex a magni ullam nesciunt.</p>
+      <!-- ex--6-->
+
+      <!-- ex--7 --> <hr>
+      <h1>Click the button to fats slide Dwon</h1>
+      <button type="button" class="btn btn-dark" id="d">Slid Down</button>
+      <p id="down">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis corporis enim hic quam natus ducimus ex a magni ullam nesciunt.</p>
+      <!-- ex--7-->
+
+      <!-- ex--8 --> <hr>
+      <h1>Click the button to slide up</h1>
+      <button type="button" class="btn btn-dark" id="u_p">Slide Up</button>
+      <p id="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium nihil quae tenetur aliquid perspiciatis accusamus cum assumenda dolorem, nobis laborum.</p>
+      <!-- ex--8 -->
+
+      <!-- ex--9 --> <hr>
+      <h1>Click the button to fast slide up</h1>
+      <button type="button" class="btn btn-dark"  id="d_e">Slid up</button>
+      <p id="p_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem doloremque assumenda fugit illum ipsa corporis blanditiis iure quam porro reiciendis?</p>
+      <!-- ex--9 -->
+
+      <!-- ex--10 --> <hr>
+       <h1>click the button to slow slide Up</h1>
+       <button type="button" class="btn btn-dark" id="s_u">Slid up</button>
+       <p id="s_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus unde qui expedita consequuntur id mollitia est perspiciatis voluptatibus placeat sed.</p>
+      <!-- ex--10 -->
+
+      <!-- ex--11--> <hr>
+      <h1>click the button to Animation</h1>
+      <button type="button" class="btn btn-dark" id="a_n">Animation</button>
+      <div></div>
+      <!-- ex--11-->
+
+      <!-- ex--12 --> <hr>
+      <h1>click the button to Animation</h1>
+      <button type="button" class="btn btn-dark m-20" id="a_t">Animation</button>
+      <div class="m-50" id="ani"></div>
+      <!-- ex--12 -->
+
+      <!-- ex--13 --> <hr>
+       <h1 class="m-20">Click the button to the stop animations</h1>
+       <button type="button" class="btn btn-dark" id="stop">used to stop animations</button>
+       <h3 id="main_con">Lorem ipsum dolor sit amet.</h3>
+       <p class="m-0" id="con">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus modi nam id quisquam praesentium nostrum totam ex minima. Et, ratione!</p>
+      <!-- ex--13 -->
+
+      <!-- ex-14 --> <hr>
+       <h1>Click the button to the callback</h1>
+       <button type="button" class="btn btn-dark" id="call">Callback</button>
+       <p id="p_two"></p>
+      <!-- ex-14 -->
+
+      <!-- ex--15 --> <hr>
+       <h1>Click the button to the Chaining</h1>
+       <h3 id="best">jquery the is best language</h3>
+       <button type="button" class="btn btn-dark" id="chai">Chaining</button>
+      <!-- ex--15 -->
+
+      <!-- ex--16 --> <hr>
+       <h1>Click the button to Show the get content</h1>
+       <h3 id="test">This is some <b>bold</b> text in a paragraph.</h3>
+       <button type="button" class="btn btn-dark" id="t_x">Show text</button>
+       <button type="button" class="btn btn-primary" id="h_l">Show HTML</button>
+      <!-- ex--16 -->
+
+      <!-- ex--17 --> <hr>
+       <h1>Click the button then Append the method</h1>
+       <p id="Appended">This is a paragraph.</p>
+       <p id="Appended">This is another paragraph.</p>
+
+       <ol>
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+       </ol>
+       
+       <button id="btn1" type="button" class="btn btn-primary" >Append text</button>
+       <button id="btn2" class="btn btn-dark" >Append list items</button>
+      <!-- ex--17 -->
+
+
+      <!-- ex--18 -->  <hr>
+       <h1>Click the button to removes the paragraph</h1>
+       <p id="p_ph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia iste reprehenderit iure adipisci exercitationem quas quis molestiae ex voluptates commodi!</p>
+       <button type="button" class="btn btn-danger" id="r_m">Removes Paragraph</button>
+      <!-- ex--18 -->
+
+      <!-- ex--19 -->  <hr>
+       <h1>Click the button to removes the paragraph</h1>
+       <p id="p_pa">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia iste reprehenderit iure adipisci exercitationem quas quis molestiae ex voluptates commodi!</p>
+       <button type="button" class="btn btn-danger" id="e_y">Removes Paragraph</button>
+      <!-- ex--19 -->
+
+      <!-- ex--20 --> <hr>
+       <h1>click the button removes the all elements</h1>
+        <p>This is a paragraph.</p>
+        <p class="test">Lorem ipsum dolor sit amet.</p>
+        <p class="test">Lorem ipsum dolor sit amet.</p>
+       <button type="button" class="btn btn-primary" id="r_l">Removes All</button>
+      <!-- ex--20 -->
+
+      <!-- ex--21 --> <hr>
+       <h1>Click the button to show the add class method</h1>
+       <h1>Heading 1</h1>
+       <h2>Heading 2</h2>
+       
+       <p>This is a paragraph.</p>
+       <p>This is another paragraph.</p>
+       
+       <div>This is some important text!</div><br>
+       <button type="button" class="btn btn-dark" id="a_d">Add class to elements</button>
+      <!-- ex--21 -->
+
+      <!-- ex-22 --> <br>
+       <h1>Click the button to show the multiple add class method</h1>
+       <div id="div1">This is some text.</div>
+        <div id="div2">This is some text.</div>
+        <br>
+
+        <button type="button" class="btn btn-primary">Add classes to first div element</button>
+      <!-- ex-22 -->
+
+      <!-- ex--23 --> <hr>
+       <h1>Click the button to remove the class method</h1>
+       <h2 class="blue">Heading 1</h2>
+        <h2 class="blue">Heading 2</h2>
+
+        <p class="blue">This is a paragraph.</p>
+        <p>This is another paragraph.</p>
+
+        <button type="button" class="btn btn-dark">Remove class from elements</button>
+      <!-- ex--23 -->
+
+      <!-- ex--24 --> <hr>
+       <h1>ToggleClass Method</h1>
+       <h2>Heading 1</h2>
+        <h2>Heading 2</h2>
+
+        <p>This is a paragraph.</p>
+        <p>This is another paragraph.</p>
+
+        <button type="button" class="btn btn-primary">Toggle class</button>
+      <!-- ex--24 -->
+
+      <!-- ex--25 --> <hr>
+       <h1>Css method</h1>
+       <h3 id="p_aa">Lorem ipsum dolor sit amet.</h3>
+       <h3 id="p_aa">Lorem ipsum dolor sit amet.</h3>
+       <h3 id="p_aa">Lorem ipsum dolor sit amet.</h3>
+       <h3 id="p_aa">Lorem ipsum dolor sit amet.</h3>
+       <button type="button" class="btn btn-dark" id="b_u">Css method</button>
+      <!-- ex--25 -->
+
+      <!-- ex--26 --> <hr>
+       <h1>Css Method</h1>
+       <h3 id="f_o">Lorem ipsum dolor sit amet.</h3>
+       <button type="button" class="btn btn-primary" id="f_t">Font size</button>
+      <!-- ex--26 -->
+
+      <!-- ex--27 --> <hr>
+       <h1>load Method</h1>
+       <div id="div1"><h5>Lorem ipsum dolor sit amet.</h5></div>
+       <button type="button" class="btn btn-dark">Get External Content</button>
+      <!-- ex--27 -->
+
+      <!-- ex--28 --> <hr>
+       <h1>Click the button multiple times to toggle the animation</h1>
+       <button type="button" class="btn btn-primary" id="t-t">Toggle animation</button>
+       <div>
+
+       </div>
+      <!-- ex--28 --> <br>
+
+      <!-- ex--29 --> <hr>
+      <button type="button" class="btn btn-dark" id="b_s">Start Animation</button>
+      <div></div>
+      <!-- ex--29 -->
+
+      <!-- ex--30 --> <hr>
+      <button type="button" class="btn btn-primary" id="s_t">Start Animation</button>
+      <div>
+
+      </div>
+      <!-- ex--30 -->
+
+      <!-- ex--31 --> <hr>
+       <h1>click the button to animate</h1>
+       <button type="button" class="btn btn-dark" id="b_f">Left Animate</button>
+       <div>
+
+       </div>
+      <!-- ex--31 -->
+
+      <!-- ex--32 --> <hr>
+       <h1>Double-click events</h1>
+       <button type="button" class="btn btn-dark" id="b_d">double-click me</button>
+       <p id="p_ar">Lorem ipsum dolor sit amet.</p>
+       <p id="p_ar">Lorem ipsum dolor sit amet.</p>
+      <!-- ex--32 -->
+
+      <!-- ex--33 --> <hr>
+       <h1>Mouseenter events</h1>
+       <button type="button" class="btn btn-dark" id="b_m">Mouseenter</button>
+      <!-- ex--33 -->
+
+      <!-- ex--34 --> <hr>
+       <h1>Mouseleave events</h1>
+       <button type="button" class="btn btn-primary" id="m_e">Mouseleave events</button>
+      <!-- ex--34 -->
+
+      <!-- ex--35 --> <hr>
+       <h1>Mousedown events</h1>
+       <button type="button" class="btn btn-dark" id="b_e">mousedown</button>
+      <!-- ex--35 -->
+
+      <!-- ex--36 --> <hr>
+       <h1>Mouseup events</h1>
+       <button type="button" class="btn btn-dark" id="t_s">Mouseup event</button>
+
+      <!-- ex--36 -->
+
+      <!-- 37 --> <hr>
+       <h1>Focus event</h1>
+       Name: <input type="text" name="fullname"><br>
+       Email: <input type="text" name="email">
+      <!-- 37 -->
+
+      <!-- ex--38 --> <hr>
+       <h1>Focus text</h1>
+       <button type="button" class="btn btn-primary" id="f_s">Focus text</button>
+       <h3 id="ff">Lorem ipsum dolor sit amet.</h3>
+      <!-- ex--38 -->
+
+      <!-- ex--39 --> <hr>
+       <h1>Val methods</h1>
+       <p id="test1">This is a paragraph.</p>
+       <button type="button" class="btn btn-primary" id="btn1">Set Text</button>
+      <!-- ex--39 -->
+
+      <!-- ex--40--> <hr>
+      <p id="test2">This is another paragraph.</p>
+      <button type="button" class="btn btn-danger" id="btn2">Set HTML</button>
+      <!-- ex--40-->
+
+      <!-- ex--41 --> <hr>
+      <p>Input field: <input type="text" id="test3" value="Mickey Mouse"></p>
+      <button type="button" class="btn btn-primary" id="btn3">Set Value</button>
+      <!-- ex--41 -->
+
+      <!-- ex--42 --> <hr>
+      <h1>Click the button to show the after Method</h1>
+      <button type="button" class="btn btn-dark" id="a_b">After Method</button>
+      <p>Lorem ipsum dolor sit amet.</p>
+      <!-- ex--42 -->
+
+      <!-- ex--43 --> <hr>
+      <h1>Click the button to show the after Method</h1>
+      <button type="button" class="btn btn-dark" id="b_b">Befor Method</button>
+      <p id="b_bp">Lorem ipsum dolor sit amet.</p>
+      <!-- ex--43 -->
+
+      <!-- ex--44 --> <hr>
+      <h1>Click the button to show the Append To Method</h1>
+      <button type="button" class="btn btn-primary" id="a_pap">Append To Method</button>
+      <p>Hello</p>
+      <!-- ex--44 -->
+
+      <!-- ex--45 --> <hr>
+      <h1>Click the button to show the clone Method</h1>
+      <p>Lorem ipsum dolor sit amet.</p>
+      <button type="button" class="btn btn-dark" id="c_m">Clone Method</button>
+      <!-- ex--45 -->
+
+      <!-- ex--46 --> <hr>
+       <h1>Set the width attribute of the image</h1>
+      <button type="button" class="btn btn-primary" id="i_m">Set the width attribute</button> <br> <br>
+      <img src="img/img_pulpitrock.jpg" alt="warc" width="30%" height="300px">
+      <!-- ex--46 -->
+
+      <!-- 47 --> <hr>
+       <h1>Click the button to change the color</h1>
+       <button type="button" class="btn btn-dark" id="c_c">Change Color</button>
+       <p>Lorem ipsum dolor sit amet.</p>
+      <!-- 47 -->
+
+      <!-- 48 --> <hr>
+       <h1>Remove All Elements</h1>
+      <button type="button" class="btn btn-primary" id="p_d">Remove elements</button>
+      <p>Lorem ipsum dolor sit amet.</p>
+      <!-- 48 -->
+    </div>
+
+
+    <!-- script link -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
